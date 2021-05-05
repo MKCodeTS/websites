@@ -30,7 +30,6 @@ body {
     position: absolute;
     top: -10px;
     right: 40%;
-    
 }
 
 .clock {
@@ -41,5 +40,4 @@ body {
     padding-top: 20px;
     font-family: Orbitron;
     border-radius: 4px;
-
 }
