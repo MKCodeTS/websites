@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+/*TYPOGRAPHY*/
+
+h1{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color:#143774;
+    font-size: 2rem;
+}
+
+.subtitle {
+    font-weight: 700;
+    color: #1792d3;
+
+}
+
+
+header{
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 2em 0;
+}
+
+nav ul {
+    
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav li {
+    margin: 0 1em;
+}
+
+nav a{
+    
+
+}
+
+nav a:hover{
+
+}
