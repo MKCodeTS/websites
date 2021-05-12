@@ -25,13 +25,13 @@ h1{
     font-weight: 700;
     color: #1792d3;
     font-size: .75rem;
+    margin: 0;
 }
 
 /*Layout*/
 
 
 header{
-    
     background-color: #f8f8f8;
     padding: 2em 0;
 }
@@ -44,6 +44,15 @@ header{
 .container-nav {
     display: flex;
     justify-content: space-between;
+}
+
+@media (max-width: 675px){
+    .container-nav{
+        flex-direction: column;
+    }
+    header {
+        text-align: center;
+    }
 }
 
 

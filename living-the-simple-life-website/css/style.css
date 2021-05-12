@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+/*TYPOGRAPHY*/
+
+body {
+    font-family: Ubuntu, sans-serif;
+    margin: 0;
+    font-weight: 300;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+h1,
+h2,
+h3{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color:#143774;
+}
+
+h1{
+    font-size: 2rem;
+    margin: 0;
+}
+
+a{
+    color: #143774;
+}
+
+a:focus,
+a:hover {
+    color:#143774;
+}
+
+strong {
+    font-weight: 700;
+}
+
+/*The long subtitle*/
+.subtitle {
+    font-weight: 800;
+    margin-top: -4px;
+    color: #1792d3;
+    font-size: .75rem;
+}
+
+.article-title {
+    font-size: 1.5rem;
+}
+
+.article-read-more,
+.article-into{
+    font-size: .875rem;
+}
+
+.article-read-more {
+    color: #1792d2;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:bolder;
+}
+
+.article-read-more:hover,
+.article-read-more:focus{
+    color: #143774;
+    text-decoration: underline;
+}
+
+
+/*Layout*/
+
+header{
+    background-color:#f8f8f8 ;
+    padding: 2em 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between; 
+}
+
+@media (max-width: 675px){
+    .container-nav{
+        flex-direction: column;
+    }
+    header {
+        text-align: center;
+    }
+}
+
+main{
+    width: 75%;
+}
+
+aside {
+    width: 25%;
+}
+/*navigation*/
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-left: 2em;
+}
+
+nav a{
+    text-decoration: none;
+    color:#707070
+}
+
+nav a:hover,
+nav a:focus {
+    color: #1792d2;
+}
+
+.current-page {
+    border-bottom: 1px solid #707070;    
+}
+
+.current-page:hover {
+    color: #707070;
+}
+
+@media (max-width:675px){
+    nav ul{
+        flex-direction: column;
+    }
+    nav li {
+        margin: .5em 0;
+    }
+}
