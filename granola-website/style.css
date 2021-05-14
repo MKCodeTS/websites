@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Crimson+Text:ital,wght@1,600&display=swap');
+
+:root {
+    --clr-text: #5a5a5a;
+    --clr-primary: #067e0a;
+    --clr-accent: #764981;
+
+    --ff-title:'Abril Fatface', cursive;
+    --ff-serif: "Crimson Text" , serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-family: var(--ff-title);
+    color: var(--clr-text);
+    font-size: 1.125rem;
+}
+
+/*Typography*/
+
+h2,
+h3 {
+    font-family: var(--ff-title);
+    line-height: 0.8;
+}
+
+h2{
+    font-size: 3rem;
+}
+
