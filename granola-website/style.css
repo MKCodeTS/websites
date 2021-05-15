@@ -23,7 +23,21 @@ html{
     font-size: 1.125rem;
 }
 
+body{
+    margin: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
 /*Typography*/
+
+
+h1,h2,h3,h4,p{
+    margin: 0;
+}
 
 h2,
 h3 {
@@ -33,5 +47,65 @@ h3 {
 
 h2{
     font-size: 3rem;
+    
 }
 
+p{
+    margin-bottom: .85em;
+}
+
+.logo{
+    font-family: var(--ff-title);
+    text-align: center;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Navigation*/
+
+header {
+    padding: 1em 0 2em;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 1em;
+    flex-direction: column;
+    align-items: center;
+    background: violet;
+}
+
+nav a{
+    display: inline-block;
+    padding: 0.5em;
+    color: var(--clr-primary);
+    text-decoration: none; 
+    ;
+}
+
+nav a:hover,
+nav a:focus{
+    color: var(--clr-accent);
+    text-decoration: underline;
+    
+}
+
+/*Buttons*/
+
+/*Homepage styles*/
+
+.hero {
+    background-color: #333;
+    background-image: url(./images/Hippie-Chick-Monkey.jpeg);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-size: cover ;
+    color: white;
+    text-align: center;
+    padding: 25vh .3em;
+}
