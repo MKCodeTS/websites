@@ -4,7 +4,7 @@
 :root {
     --clr-text: #5a5a5a;
     --clr-primary: #067e0a;
-    --clr-accent: #764981;
+    --clr-accent: #744d7e;
 
     --ff-title:'Abril Fatface', cursive;
     --ff-serif: "Crimson Text" , serif;
@@ -25,6 +25,7 @@ html{
 
 body{
     margin: 0;
+    text-align: center;
 }
 
 img{
@@ -43,6 +44,7 @@ h2,
 h3 {
     font-family: var(--ff-title);
     line-height: 0.8;
+    letter-spacing: 2px; 
 }
 
 h2{
@@ -52,6 +54,10 @@ h2{
 
 p{
     margin-bottom: .85em;
+}
+
+.text-primary {
+    color: var(--clr-primary)
 }
 
 .logo{
@@ -109,3 +115,20 @@ nav a:focus{
     text-align: center;
     padding: 25vh .3em;
 }
+
+.intro {
+    text-align: center;
+}
+.about-us {
+    background: var(--clr-accent);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0;
+}
+
+.about-us__intro{
+    background-image: url(./images/rr-img.png
+}
+
+
